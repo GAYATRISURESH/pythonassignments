@@ -1,0 +1,15 @@
+Bloom Filter
+	Data Structure for representing a set
+	Exetremely space efficient 
+ 	Probabilistic data structure 
+		AddKey: Adds a key in to the set 
+		IsMember: Check if keys is in set with False Positivies 
+		DeleteKey: Not supported 
+
+Bloom filter is represented by m slots, k hash functions and n elements:
+	A empty bloom filter is a bit array of m bits
+	We need k number of hash functions to calculate the hashes for a given input.
+	The input element (n) 
+Uses hash values to generate indices and assign those with '1'. 
+During a search operation same hash is used to calculate the hash value and if any of the resultant index returns a zero value then it returns a negative result.
+If all of the index returns value '1' then it probably means that the data is present (or not)(false positive).
