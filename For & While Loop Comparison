@@ -1,0 +1,5 @@
+In "for" loop initialization,conditional checking and increment or decrement is done while iteration but in "while" loop only initialzation and conditional checking is done.
+The syntax in "for" loop will be executed only when initialization statement is on top of syntax but in "while" loop, it doesn't matter initialization statement finds anywhere in syntax.
+For loop is used when we are aware of number of iterations at time of execution but in While loop we can execute if we are not aware of number of iterations.
+The iteration will be executed only if body of "for" loop is executed but in "while" loop iteration statement can be written anywhere in the syntax.
+If we forgot to put conditional statement,it will reiterate loop infinite times in "for" loop but in "while" loop it will show an error.
